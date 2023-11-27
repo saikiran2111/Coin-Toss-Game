@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #f9d423, #e2a139);
+}
+
+.inner-container {
+  background-color: #ffffff;
+  height: 600px;
+  width: 500px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 35px;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 45px;
+  color: #a35200;
+}
+
+.toss-desc {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #334155;
+  margin-top: 10px;
+}
+
+.toss-btn {
+  background-color: #f9d423;
+  height: 30px;
+  width: 95px;
+  border-radius: 8px;
+  color: #a35200;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+  width: 320px;
+  margin-top: 25px;
+}
+
+.toss-img {
+  height: 85px;
+  width: 90px;
+  margin-top: 20px;
+}
